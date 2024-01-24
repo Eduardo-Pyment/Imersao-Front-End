@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -21,8 +22,8 @@
   <body>
     <h1>Spotify</h1>
     <div class="sidebar">
-      <nav>
-        <div>
+      <nav class="sidebar__navigation">
+        <div class="logo">
           <a href=""
             ><img src="./assets/icons/logo-spotify.png" alt="Logo do spotify" />
           </a>
@@ -30,11 +31,16 @@
             <ul>
               <li>
                 <a href="">
-                  <span><i class="fa-solid fa-house"></i></span>
-                  <span>Início</span></a
-                >
+                  <span class="fa fa-home"> </span>
+                  <span>Início</span>
+                </a>
               </li>
-              <li></li>
+              <li>
+                <a href="">
+                  <span class="fa fa-search"> </span>
+                  <span>Pesquisar</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

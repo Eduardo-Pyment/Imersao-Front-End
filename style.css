@@ -5,3 +5,45 @@ body {
 h1 {
   color: aliceblue;
 }
+
+.sidebar {
+  position: fixed;
+  width: 300px;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+
+.sidebar__navigation {
+  background-color: #121212;
+  padding: 16px 0 0 16px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.sidebar__navigation .logo {
+  padding: 16px 0 0 16px;
+  background: #121212;
+  border-radius: 8px;
+}
+
+.sidebar__navigation .logo img {
+  width: 80px;
+}
+
+.sidebar nav ul {
+  padding: 0 20px 10px 20px;
+  margin-top: 20px;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #b3b3b3;
+}
