@@ -165,3 +165,50 @@ body {
   padding: 8px;
   margin: 8px;
 }
+
+.disclaimer-premium {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(0, 178, 212, 1) 50%,
+    rgba(252, 69, 168, 1) 100%
+  );
+  justify-content: space-between;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+}
+
+.disclaimer-premium__text {
+  flex-direction: column;
+  margin: 15px 20px;
+  display: flex;
+}
+
+.disclaimer-premium__title {
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.disclaimer-premium__subtitle {
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.disclaimer-premium > button {
+  font-family: "DM Sans", sans-serif;
+  margin: auto 20px auto auto;
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  border: 0;
+}
